@@ -1,0 +1,236 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Columbia University EECS E4764 IoT Project Report #1</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<h1 id="title">Intelligent Table Tennis Coach</h1>
+							<p>Columbia University <br>
+								EECS E4764 Fall'22 Internet of Things<br>
+								Intelligent and Connected Systems<br>
+								Team 1 Project Report
+							</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<!--
+
+								Prologue's nav expects links in one of two formats:
+
+								1. Hash link (scrolls to a different section within the page)
+
+								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+
+								2. Standard link (sends the user to another page/site)
+
+								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+
+							-->
+							<ul>
+								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Abstract</span></a></li>
+								<li><a href="#motivation" id="motivation-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Motivation</span></a></li>
+								<li><a href="#system" id="system-link" class="skel-layers-ignoreHref"><span class="icon fa-th">System</span></a></li>
+								<li><a href="#results" id="results-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Results</span></a></li>
+								<li><a href="#references" id="references-link" class="skel-layers-ignoreHref"><span class="icon fa-th">References</span></a></li>
+								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+				
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+								<iframe width="560" height="315" src="https://www.bilibili.com/video/BV1No4y1a7wh/?pop_share=1&vd_source=b9a1c5fa97256d46ed98d418d02215f7" frameborder="0" allowfullscreen></iframe>
+
+								<h2 class="alt">Intelligent Table Tennis Coach</h2>
+								<p align="left">Table tennis has been steadily growing in popularity in the United States, but the high cost of hiring a personal coach has prevented many players from receiving the training they need to improve their skills. To address this issue, we have developed the Intelligent Table Tennis Coach, an innovative system that provides affordable and effective training for players of all levels.
+
+									Our Intelligent Table Tennis Coach utilizes cutting-edge technology to teach players the fundamental elements of the game, including consistency, framework, timing, and acceleration. By using poses extracted by mediapipe [2], color recognition based on OpenCV [3] to detect the ball's direction, and the ADXL345 sensor to measure acceleration, our system can evaluate a player's performance from multiple angles and provide personalized feedback to help them improve.
+									
+									As far as we know, Intelligent Table Tennis Coach is the first table tennis training system that incorporates pose estimation, ball tracking, and acceleration evaluation. By providing a comprehensive evaluation of a player's performance, our system enables players to identify their strengths and weaknesses and develop their skills in a fun and engaging way.
+									
+									Unlike traditional coaching methods that can be expensive and time-consuming, our Intelligent Table Tennis Coach offers an affordable and convenient alternative. Whether you're a beginner or an experienced player, our system can help you improve your game and take your skills to the next level. Give it a try today and experience the benefits for yourself!
+									</p>
+
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="motivation" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Motivation</h2>
+							</header>
+
+							<p align="left">Table tennis is a popular sport in the United States, but the high cost of hiring a personal coach has created a barrier for many players looking to improve their skills. Through our research, we discovered a significant demand for affordable table tennis coaching. We were inspired to develop a system that would be both accessible and effective in helping players improve their game.
+
+								Drawing on our expertise in IoT and our shared passion for table tennis, we developed the Intelligent Table Tennis Coach. Our goal was to create a system that would provide amateur players with access to personalized coaching and feedback, without the high costs associated with traditional coaching methods.
+								
+								By combining our knowledge of IoT technology with our love for table tennis, we were able to design a system that incorporates pose estimation, ball tracking, and acceleration evaluation to provide comprehensive feedback on a player's performance. Our system is not only easy to implement, but also affordable, making it accessible to a wide range of players.
+								
+								Our motivation for developing the Intelligent Table Tennis Coach was to make table tennis coaching accessible to all players, regardless of their financial resources. We believe that our system has the potential to revolutionize table tennis training and enable players to reach their full potential. Give it a try and see for yourself how the Intelligent Table Tennis Coach can help you improve your game!</p>
+
+
+
+						</div>
+					</section>
+
+
+					<section id="system" class="three">
+						<div class="container">
+
+							<header>
+								<h2>System</h2>
+							</header>
+
+							<h3 align="left">Architecture</h3>
+							
+							<article class="item">
+								<a href="#" class="image fit"><img src="images/system.png" alt="" /></a>
+							</article>
+
+
+							<h3 align="left">Technical Components</h3>
+
+							<p align="left">Mediapipe, OpenCV, Pose estimation, Color recognition, Flask server</p>
+
+
+							<h3 align="left">Prototype</h3>
+
+							<article class="item">
+								<a href="#" class="image fit"><img src="images/prototype.jpg" alt="" /></a>
+							</article>
+
+
+
+						</div>
+					</section>
+
+
+					<section id="results" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Results</h2>
+							</header>
+
+							<article class="item">
+								<a href="#" class="image fit"><img src="images/p1.png" alt="" /></a>
+							</article>
+							
+							<article class="item">
+								<a href="#" class="image fit"><img src="images/p2.png" alt="" /></a>
+							</article>
+							
+							<article class="item">
+								<a href="#" class="image fit"><img src="images/p3.png" alt="" /></a>
+							</article>
+
+
+						</div>
+					</section>
+
+					<section id="references" class="three">
+						<div class="container">
+
+							<header>
+								<h2>References</h2>
+							</header>
+
+							<p align="left">[1] Zhang, Z. (2022). Action Recognition and Application of Table Tennis Training Based on IOT Perception. Security and Communication Networks, 2022.</p>
+							
+							<p align="left">[2] Lugaresi, C., Tang, J., Nash, H., McClanahan, C., Uboweja, E., Hays, M., ... & Grundmann, M. (2019, June). Mediapipe: A framework for perceiving and processing reality. In Third Workshop on Computer Vision for AR/VR at IEEE Computer Vision and Pattern Recognition (CVPR) (Vol. 2019).</p>
+							
+							<p align="left">[3] Bradski, G., & Kaehler, A. (2000). OpenCV. Dr. Dobb’s journal of software tools, 3, 120.</p>
+
+						</div>
+					</section>
+
+
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Contact</h2>
+							</header>
+
+							<p align="left">
+								<strong>Zihao Huang: </strong>zihao.h@columbia.edu</br>
+								<strong>Yukai Song: </strong>ys3493@columbia.edu</br>
+								<strong>Kun Wang: </strong>kw2962@columbia.edu</br>
+							</br>
+								<strong>Columbia University </strong><a href="http://www.ee.columbia.edu">Department of Electrical Engineering</a><br>
+								<!-- <strong>Class Website:</strong>
+									<a href="https://edblogs.columbia.edu/eecs4764-001-2019-3/">Columbia University EECS E4764 Fall '22 IoT</a></br> -->
+								<strong>Instructor:</strong> <a href="http://fredjiang.com/">Professsor Xiaofan (Fred) Jiang</a>
+							</p>
+
+
+							<!-- <form method="post" action="#">
+								<div class="row">
+									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="12u$">
+										<textarea name="message" placeholder="Message"></textarea>
+									</div>
+									<div class="12u$">
+										<input type="submit" value="Send Message" />
+									</div>
+								</div>
+							</form> -->
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; IoT Project | All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollzer.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
